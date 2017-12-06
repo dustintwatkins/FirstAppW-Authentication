@@ -1,0 +1,28 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T06:45:43.973Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a285620fb85184b41197b39',
+  username: 'dog',
+  msg: 'Authenticated as dog',
+  color: 'green' }
+/ Route if user
+[0mGET / [36m304 [0m14.165 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.190 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.590 ms - -[0m
+[0mGET /user/profile [36m304 [0m12.704 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m10.464 ms - 1224[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.136 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.083 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.687 ms - -[0m
+(node:16788) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mPOST /user/delete [36m302 [0m24.385 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.989 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.110 ms - -[0m
